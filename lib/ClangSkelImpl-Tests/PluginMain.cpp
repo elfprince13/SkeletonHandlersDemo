@@ -7,8 +7,6 @@
 
 using namespace clang;
 
-
-
-Parser::StmtResult doParseSkeletonWithName_Loop2dAccumulate(SourceLocation kindLoc){
+extern "C" Parser::StmtResult doParseSkeletonWithName_Loop2dAccumulate(SourceLocation kindLoc){
 	return StmtResult();
 }

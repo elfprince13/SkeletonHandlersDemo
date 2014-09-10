@@ -20,10 +20,10 @@ set (CLANG_LIBS
 )
  
  
-add_clang_plugin(ClangSkelTestsPlugin
+add_clang_plugin(libClangSkelImpl-Tests
   PluginMain.cpp
 )
  
-set_target_properties(ClangSkelTestsPlugin PROPERTIES
+set_target_properties(libClangSkelImpl-Tests PROPERTIES
   LINKER_LANGUAGE CXX
   PREFIX "")
