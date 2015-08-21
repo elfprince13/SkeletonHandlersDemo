@@ -10,3 +10,7 @@ using namespace clang;
 extern "C" SkeletonArgType getArgTypesForSkeletonOfKind_Loop2dAccumulate(size_t argN){
 	return SkeletonArgType::NO_SUCH_ARG;
 }
+
+extern "C" const char * getArgNamesForSkeletonOfKind_Loop2dAccumulate(size_t argN){
+	return nullptr;
+}
