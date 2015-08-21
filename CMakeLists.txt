@@ -112,7 +112,6 @@ set(CLANG_BUILD_DIR ${LLVM_BINARY_DIR}/tools/clang CACHE PATH "Path to clang bui
 set (CMAKE_MODULE_LINKER_FLAGS "-Wl,-flat_namespace -Wl,-undefined -Wl,suppress")
  
 set (LLVM_LIBS
-  LLVMJIT
   LLVMX86CodeGen
   LLVMX86AsmParser
   LLVMX86Disassembler
@@ -127,7 +126,6 @@ set (LLVM_LIBS
   LLVMScalarOpts
   LLVMInstCombine
   LLVMTransformUtils
-  LLVMipa
   LLVMAnalysis
   LLVMTarget
   LLVMCore

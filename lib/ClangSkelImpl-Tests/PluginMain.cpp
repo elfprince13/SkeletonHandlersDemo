@@ -7,6 +7,6 @@
 
 using namespace clang;
 
-extern "C" Parser::StmtResult doParseSkeletonWithName_Loop2dAccumulate(SourceLocation kindLoc){
-	return StmtResult();
+extern "C" SkeletonArgType getArgTypesForSkeletonOfKind_Loop2dAccumulate(size_t argN){
+	return SkeletonArgType::NO_SUCH_ARG;
 }
